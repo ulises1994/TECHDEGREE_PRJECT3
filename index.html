@@ -26,18 +26,17 @@
   <div class="container">
   <h2 class="cent">Sign up for our Newsletter</h2>
   <p class="blu cent2">get the latest news on how your code is doing right in your inbox</p>
-
+  <hr class="hr2">
+  <hr class="hrl">
     <form class="fr" action="index.html" method="post">
       <fieldset>
-        <hr class="hr2">
-        <hr class="hrl">
-        <legend class="cent"id="contact">Contact Information:</legend>
-        <label class="purp" class="la" for="name">Full Name</label>
+        <legend class="cent" id="contact">Contact Information:</legend>
+        <label class="purp la" for="name">Full Name</label>
         <input type="text" name="user-name" id="name" placeholder="Required" required><br />
         <label class="purp" for="email">Email Adress</label>
-        <input type="text" name="user-email" id="email" placeholder="Required" required>
+        <input type="email" name="user-email" id="email" placeholder="Required" required>
         <label class="purp" for="number">Phone Number</label>
-        <input type="text" name="User-number" id="number"placeholder="Required" required>
+        <input type="tel" name="User-number" id="number" placeholder="Required" required>
         <label class="purp" for="address">Street Address</label>
         <input type="text" name="user-address" id="address">
         <label class="purp" for="city">City</label>
@@ -108,9 +107,9 @@
       <fieldset>
         <legend class="cent" id="news">Newsletter:</legend>
         <p class="blu">Select the Newsletter you would like to recieve.</p><br>
-        <input type="checkbox" name="Newsletter" value="html"><label class="purp">Html News</label> <br>
-        <input type="checkbox" name="Newsletter" value="css"> <label class="purp">Css News</label> <br>
-        <input type="checkbox" name="Newsletter" value="Javascript"> <label class="purp">Javascript News</label> <br>
+        <input id="html-news" type="checkbox" name="Newsletter" value="html"><label for="html-news" class="purp">Html News</label> <br>
+        <input id="css-news" type="checkbox" name="Newsletter" value="css"> <label for="css-news" class="purp">Css News</label> <br>
+        <input id="Javascript-news" type="checkbox" name="Newsletter" value="Javascript"> <label for="Javascript-news" class="purp">Javascript News</label> <br>
 
 
 
@@ -132,7 +131,7 @@
 
 
   <footer>
-<p class="cent2"> &copy copyright the code reciew</p>
+<p class="cent2"> &copy; copyright the code reciew</p>
 
   </footer>
 
